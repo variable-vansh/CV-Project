@@ -1,5 +1,6 @@
 :root {
-  font-family: heckerfont, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: heckerfont, Inter, system-ui, Avenir, Helvetica, Arial,
+    sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -66,13 +67,12 @@ button:focus-visible {
   }
 }
 
-@font-face
-{
-font-family: heckerFont;
-src:url(./assets/Press_Start_2P/PressStart2P-Regular.ttf)
+@font-face {
+  font-family: heckerFont;
+  src: url(./assets/Press_Start_2P/PressStart2P-Regular.ttf);
 }
 
-input{
+input {
   height: 40px;
   padding: 10px;
   font-family: heckerFont;
@@ -81,8 +81,7 @@ input{
   box-sizing: border-box;
 }
 
-
-#root{
+#root {
   height: 100vh;
   width: 100vw;
   display: flex;
@@ -91,16 +90,18 @@ input{
   align-items: center;
 }
 
-form label, form input, form button {
+form label,
+form input,
+form button {
   display: block;
   margin-bottom: 10px;
 }
 
-legend{
+legend {
   font-size: 40px;
   color: rgb(0, 255, 0);
 }
 
-label{
-color: #01D758;
+label {
+  color: #01d758;
 }
